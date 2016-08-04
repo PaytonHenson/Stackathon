@@ -1,0 +1,19 @@
+{
+  "name": "stackathon",
+  "version": "1.0.0",
+  "description": "A book reccomendation engine built on IBM's Watson API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaytonHenson/Stackathon.git"
+  },
+  "author": "Payton Henson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaytonHenson/Stackathon/issues"
+  },
+  "homepage": "https://github.com/PaytonHenson/Stackathon#readme"
+}
