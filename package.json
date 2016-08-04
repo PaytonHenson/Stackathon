@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PaytonHenson/Stackathon/issues"
   },
-  "homepage": "https://github.com/PaytonHenson/Stackathon#readme"
+  "homepage": "https://github.com/PaytonHenson/Stackathon#readme",
+  "dependencies": {
+    "watson-developer-cloud": "^2.0.1"
+  }
 }
