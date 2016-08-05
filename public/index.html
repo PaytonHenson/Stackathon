@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curio</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./angular-vidbg/dist/vidBg.css"/>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+
+
+    <script type="text/javascript" src="./angular/angular.js" defer></script>
+    <script type="text/javascript"  src="./angular-ui-router/release/angular-ui-router.js" defer></script>
+     <script src="./angular-vidbg/dist/vidBg.js" defer></script>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" defer></script>
+    <script type="text/javascript" src="./js/materialize.js" defer></script>
+
+    <script src="./main.js" defer></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="content">
+      <div class="row valign-wrapper">
+        <div class="input-field col s12 valign">
+          <input id="story_name" type="text" class="validate">
+          <label for="story_name" class="left-align">Story you like here</label>
+        </div>
+      </div>
+
+      <video loop muted autoplay class="video">
+        <source src="./drop.mp4" type="video/mp4">
+      </video>
+    </div>
+  </body>
+</html>

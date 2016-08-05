@@ -4,7 +4,8 @@
   "description": "A book reccomendation engine built on IBM's Watson API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,16 @@
   },
   "homepage": "https://github.com/PaytonHenson/Stackathon#readme",
   "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-vidbg": "0.0.12",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs-promise": "^0.5.0",
+    "morgan": "^1.7.0",
+    "pg": "^6.0.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.6",
     "watson-developer-cloud": "^2.0.1"
   }
 }
